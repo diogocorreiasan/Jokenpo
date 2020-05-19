@@ -10,8 +10,8 @@ Json
 
 Serviços Jogar e salva em um arquivo txt
 POST - http://localhost:8080/jogada/jogar
-[
-    {
+
+[{
     	"id": 1,
         "jogador": {
             "nome": "Diogo"
@@ -33,14 +33,6 @@ POST - http://localhost:8080/jogada/jogar
             "nome": "Pedro"
         },
         "jokenpoItem": "PAPEL"
-        
-    },
-    {
-    	"id": 5,
-        "jogador": {
-            "nome": "Luiz"
-        },
-        "jokenpoItem": "PEDRA"
         
     }
 ]
