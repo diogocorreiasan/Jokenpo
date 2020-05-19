@@ -11,7 +11,8 @@ Json
 Serviços Jogar e salva em um arquivo txt
 POST - http://localhost:8080/jogada/jogar
 
-[{
+[
+    {
     	"id": 1,
         "jogador": {
             "nome": "Diogo"
